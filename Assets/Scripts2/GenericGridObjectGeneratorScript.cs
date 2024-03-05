@@ -7,7 +7,7 @@ public class GenericGridObjectGeneratorScript : MonoBehaviour {
     public Vector3 maxPosition;
     public Vector3 gridSize = new Vector3(1, 1, 3);
 
-    public float density = 0.12f;
+    public float density = 0.92f;
     public bool relative = true;
     public bool destroyWhenDestroyed = true;
 
@@ -21,7 +21,9 @@ public class GenericGridObjectGeneratorScript : MonoBehaviour {
         for (var x = minPosition.x; x <= maxPosition.x; x += gridSize.x) {
             for (var y = minPosition.y; y <= maxPosition.y; y += gridSize.y) {
                 for (var z = minPosition.z; z <= maxPosition.z; z += gridSize.z) {
+
                     bool generate = Random.value < density;
+
                     if (generate) {
                         GameObject prefab = prefabs[Random.Range(0, prefabs.Length)];
                         var o = (GameObject)Instantiate(prefab, relative ? transform.position + new Vector3(x, y, z) : new Vector3(x, y, z), Quaternion.identity);

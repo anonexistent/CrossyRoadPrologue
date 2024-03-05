@@ -33,7 +33,7 @@ public class TrunkFloatingScript : MonoBehaviour {
     private Rigidbody playerBody;
 
     public void Start() {
-        originalY = transform.position.y;
+        originalY = transform.position.y+0.5f;
     }
 
     public void Update() {

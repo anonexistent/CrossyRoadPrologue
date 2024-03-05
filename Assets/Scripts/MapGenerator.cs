@@ -44,7 +44,6 @@ public class MapGenerator : MonoBehaviour
     //}
     public void SpawnMap(bool isInitialization, Vector3 pos)
     {
-        Debug.Log(curPos.x -pos.x);
         if(curPos.x - pos.x < minDistance)
         {
             int temp = Random.Range(0, ters.Count);
