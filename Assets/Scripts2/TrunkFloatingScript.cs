@@ -42,12 +42,12 @@ public class TrunkFloatingScript : MonoBehaviour {
         elapsedTime += Time.deltaTime;
         if (elapsedTime > animationTime) {
             sinking = false;
-            transform.position = new Vector3(transform.position.x, originalY, transform.position.z);
+            transform.position = new Vector3(transform.position.z, originalY, transform.position.x);
         }
 
         if (sinking) {
             float y = Sinerp(originalY, originalY - animationDistance, (elapsedTime < animationTime) ? (elapsedTime / animationTime) : 1);
-            transform.position = new Vector3(transform.position.x, y, transform.position.z);
+            transform.position = new Vector3(transform.position.z, y, transform.position.x);
         }
     }
 

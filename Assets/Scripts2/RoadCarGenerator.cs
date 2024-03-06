@@ -42,9 +42,9 @@ public class RoadCarGenerator : MonoBehaviour {
             o.GetComponent<CarScript>().speedX = (int)direction * speed;
 
             if (direction < 0)
-                o.transform.rotation = Quaternion.Euler(-90, 270, 0);
+                o.transform.rotation = Quaternion.Euler(0, 270, 0);
             else
-                o.transform.rotation = Quaternion.Euler(-90, 90, 0);
+                o.transform.rotation = Quaternion.Euler(0, 90, 0);
             
             cars.Add(o);
         }

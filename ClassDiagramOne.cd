@@ -1,4 +1,129 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraMovementScript" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AESgAAAAACAAJBAAAAAAAAAAAAAQAAABAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripts2\CameraMovementScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarScript" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts2\CarScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateControllerScript" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgABAACAAABAAAAEIIAgYACAAAAAEgGBAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts2\GameStateControllerScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GenericGridObjectGeneratorScript" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAIACAAAAgQAEAACAAAAAEAAQAAAgAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts2\GenericGridObjectGeneratorScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelControllerScript" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQACAAAACAABAAIAAAAAAAAACIAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts2\LevelControllerScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhNAAAABQAAQAAIAEAACIUBAEAAEEAAABAAAAAIAAg=</HashCode>
+      <FileName>Assets\Scripts2\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapGenerator" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACQiABAAAAAAAAAAAAAAAAAABAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicControl" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts2\MusicControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACAAAAAEAAAAAAAAAAAAAAAIAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovementScript" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgggSAAaAgJgAgIAAIIIAAgSQBgAEAgAAAABAQgAA=</HashCode>
+      <FileName>Assets\Scripts2\PlayerMovementScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoadCarGenerator">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RoadCarGenerator.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts2\RoadCarGenerator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARBAAAAASAAIgAAAAgAAASAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts2\RoadCarGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainData" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TerrainData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrunkFloatingScript" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABCQAASAAAggAAABAAAAACAAAAQAIAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Scripts2\TrunkFloatingScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrunkGeneratorScript">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="TrunkGeneratorScript.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts2\TrunkGeneratorScript.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAASAAIAAAAEgAAASAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts2\TrunkGeneratorScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterSplashScript" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts2\WaterSplashScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
